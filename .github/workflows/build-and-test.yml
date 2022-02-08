@@ -13,6 +13,7 @@ jobs:
 
       - name: Print app.js
         run: cat src/frontend/app.js
+<<<<<<< HEAD
 
       - name: node
       - uses: actions/checkout@v2
@@ -24,3 +25,5 @@ jobs:
 
       - run: cp src/frontend/app.js /dist/app.js
       - run: /dist/app.js
+=======
+>>>>>>> parent of 8935009... puh
